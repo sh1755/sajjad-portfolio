@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0b1020;
+  --paper: #f8fafc;
+  --signal: #22d3ee;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper text-ink antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    background: rgba(34, 211, 238, 0.28);
+  }
+  :focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+}
+
+@layer components {
+  .label {
+    @apply font-mono text-[0.7rem] uppercase tracking-label;
+  }
+  .prose-site p + p {
+    @apply mt-4;
+  }
+  .grid-lines {
+    background-image: linear-gradient(to right, rgba(148, 163, 184, 0.07) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(148, 163, 184, 0.07) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .grid-lines-light {
+    background-image: linear-gradient(to right, rgba(15, 23, 42, 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(15, 23, 42, 0.045) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+}
+
+/* Signal pulse travelling along the perception → control path in the hero illustration */
+@keyframes dash {
+  to {
+    stroke-dashoffset: -240;
+  }
+}
+.signal-path {
+  stroke-dasharray: 6 234;
+  animation: dash 4.5s linear infinite;
+}
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+}
+.arm-sway {
+  transform-box: view-box;
+  animation: sway 9s ease-in-out infinite;
+}
+
+/* Scroll reveal — only hides content when JS is running (html.js) */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.js .reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .signal-path,
+  .arm-sway {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
