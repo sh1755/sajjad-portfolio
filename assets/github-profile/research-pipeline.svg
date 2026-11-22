@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="225" viewBox="0 0 1180 225" role="img" aria-label="Research pipeline: Human intent, multimodal perception, AI reasoning, safety gate, robot action.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0A1830"/><stop offset="1" stop-color="#10334C"/></linearGradient></defs>
+<rect width="1180" height="225" rx="18" fill="url(#bg)"/>
+<text x="36" y="40" fill="#B1E8F2" font-size="17" font-weight="700" font-family="Arial,sans-serif" letter-spacing="1.6">MY RESEARCH PIPELINE  ·  FROM HUMAN INTENT TO SAFE ROBOT ACTION</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="35" y="72" width="195" height="103" rx="12" fill="#143448" stroke="#3BAFD3" stroke-width="1.5"/>
+<text x="132" y="110" fill="#66E6E0" font-size="17" font-weight="700">HUMAN INPUT</text><text x="132" y="138" fill="#D7ECF5" font-size="14">Speech · Gesture · Text</text>
+<rect x="270" y="72" width="195" height="103" rx="12" fill="#143448" stroke="#3BAFD3" stroke-width="1.5"/>
+<text x="367" y="110" fill="#66E6E0" font-size="17" font-weight="700">PERCEPTION</text><text x="367" y="138" fill="#D7ECF5" font-size="14">Vision · Sensor Fusion</text>
+<rect x="505" y="72" width="195" height="103" rx="12" fill="#143448" stroke="#3BAFD3" stroke-width="1.5"/>
+<text x="602" y="110" fill="#66E6E0" font-size="17" font-weight="700">AI REASONING</text><text x="602" y="138" fill="#D7ECF5" font-size="14">LLMs · Planning · ML</text>
+<rect x="740" y="72" width="195" height="103" rx="12" fill="#203B43" stroke="#FFCB81" stroke-width="1.5"/>
+<text x="837" y="110" fill="#FFCF85" font-size="17" font-weight="700">SAFETY GATE</text><text x="837" y="138" fill="#D7ECF5" font-size="14">Validate · Constrain</text>
+<rect x="975" y="72" width="170" height="103" rx="12" fill="#143448" stroke="#3BAFD3" stroke-width="1.5"/>
+<text x="1060" y="110" fill="#66E6E0" font-size="17" font-weight="700">ROBOT ACTION</text><text x="1060" y="138" fill="#D7ECF5" font-size="14">Control · Simulation</text>
+</g>
+<g fill="none" stroke="#5AE5E1" stroke-width="2.7" stroke-linecap="round"><path d="M236 123H263 M258 118L264 123L258 128 M471 123H498 M493 118L499 123L493 128 M706 123H733 M728 118L734 123L728 128 M941 123H968 M963 118L969 123L963 128"/></g>
+<text x="36" y="206" fill="#85A9C0" font-family="Consolas,monospace" font-size="13">Human–Robot Interaction  /  Embodied Intelligence  /  Safe Robot Autonomy</text>
+</svg>
