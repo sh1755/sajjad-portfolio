@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-label="Dr Sajjad Hussain. Robotics, Embodied AI, Human-Robot Interaction, Intelligent Control.">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071122"/><stop offset=".54" stop-color="#0B2340"/><stop offset="1" stop-color="#052A3A"/></linearGradient>
+ <linearGradient id="acc" x1="0" x2="1"><stop stop-color="#36E5D4"/><stop offset="1" stop-color="#55ABFF"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#20DCC4" stop-opacity=".18"/><stop offset="1" stop-color="#20DCC4" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#6DBBDF" stroke-opacity=".10" stroke-width="1"/></pattern>
+ <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="1280" height="390" fill="url(#bg)"/>
+<rect width="1280" height="390" fill="url(#grid)"/>
+<circle cx="1008" cy="194" r="265" fill="url(#glow)"/>
+<path d="M0 348H1280" stroke="#36E5D4" stroke-opacity=".3"/>
+<path d="M52 42H170 M52 42V72 M1100 42H1228V72 M52 318V348H168 M1100 348H1228V319" stroke="#35D6CE" stroke-width="2" fill="none" opacity=".7"/>
+<rect x="62" y="72" width="216" height="30" rx="15" fill="#123C4C" stroke="#3AD2D1" stroke-opacity=".38"/>
+<circle cx="82" cy="87" r="4.5" fill="#3EF4D7"/>
+<text x="99" y="92" fill="#96F6E8" font-size="13" font-family="Arial,sans-serif" letter-spacing="1.5" font-weight="700">ROBOTICS RESEARCH</text>
+<text x="62" y="177" fill="#F1F8FF" font-family="Arial,Helvetica,sans-serif" font-size="61" font-weight="700">Dr Sajjad Hussain</text>
+<rect x="62" y="195" width="470" height="4" rx="2" fill="url(#acc)"/>
+<text x="62" y="244" fill="#BFE0F0" font-family="Arial,Helvetica,sans-serif" font-size="23">Human–Robot Interaction  •  Embodied AI</text>
+<text x="62" y="276" fill="#BFE0F0" font-family="Arial,Helvetica,sans-serif" font-size="23">Humanoid Robotics  •  Intelligent Control</text>
+<text x="62" y="328" fill="#57DBD1" font-family="Consolas,monospace" font-size="17" letter-spacing="1.5">PERCEIVE    REASON    PLAN    ACT</text>
+<!-- HUD and humanoid figure -->
+<circle cx="1034" cy="191" r="148" fill="none" stroke="#3EC3CF" stroke-opacity=".20" stroke-width="1.4"/>
+<circle cx="1034" cy="191" r="119" fill="none" stroke="#3EC3CF" stroke-opacity=".22" stroke-dasharray="5 9"/>
+<path d="M882 192H930 M1138 192H1208 M1034 38V72 M1034 308V358" stroke="#36C5D9" stroke-opacity=".3"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <g stroke="#60DDE9" stroke-width="8">
+  <path d="M1014 103L1021 92H1050L1057 103L1051 147H1020Z" fill="#104059"/>
+  <path d="M1009 160L991 173L984 242L1016 268L1052 268L1084 242L1077 173L1059 160Z" fill="#0B3447"/>
+  <path d="M990 178L954 195L934 252 M1078 178L1115 196L1135 250"/>
+  <path d="M931 255L923 277L938 278L945 259 M1132 253L1126 278L1141 279L1147 257" stroke-width="6"/>
+  <path d="M1017 268L1009 309L991 344 M1051 268L1060 308L1079 344"/>
+ </g>
+ <path d="M1019 119H1055" stroke="#3DF5DA" stroke-width="8"/>
+ <path d="M1019 133H1031 M1044 133H1055" stroke="#A3F8F5" stroke-width="4"/>
+ <path d="M1003 183H1066L1062 218H1007Z" fill="#092C3D" stroke="#4DD4DA" stroke-width="2"/>
+ <path d="M1022 202H1046" stroke="#46F2D6" stroke-width="4"/>
+ <circle cx="991" cy="174" r="7" fill="#144458" stroke="#69E8E8" stroke-width="2"/>
+ <circle cx="1078" cy="174" r="7" fill="#144458" stroke="#69E8E8" stroke-width="2"/>
+ <circle cx="934" cy="251" r="6" fill="#53E6D4" stroke="none"/>
+ <circle cx="1135" cy="251" r="6" fill="#53E6D4" stroke="none"/>
+ </g>
+<!-- network nodes -->
+<g stroke="#5DD6D6" stroke-opacity=".55" fill="none" stroke-width="1.5">
+<path d="M881 87L927 113L963 88 M1122 89L1162 114L1200 91 M886 294L929 273L973 301 M1093 311L1161 292L1214 309"/>
+</g>
+<g fill="#4FF1DD"><circle cx="881" cy="87" r="4"/><circle cx="963" cy="88" r="4"/><circle cx="1200" cy="91" r="4"/><circle cx="886" cy="294" r="4"/><circle cx="973" cy="301" r="4"/><circle cx="1214" cy="309" r="4"/></g>
+<text x="809" y="68" fill="#75C9D5" font-family="Consolas,monospace" font-size="13">HRI / LLM</text>
+<text x="1135" y="340" fill="#75C9D5" font-family="Consolas,monospace" font-size="13">ROS 2 / MuJoCo</text>
+</svg>
