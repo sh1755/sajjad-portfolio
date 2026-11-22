@@ -1,4 +1,6 @@
 # Dr Sajjad Hussain — academic portfolio
+
+**Explore projects by research area:** [Robotics & Robot Control](PROJECTS.md#02--robotics-robot-control-and-simulation) · [Human–Robot Interaction](PROJECTS.md#01--humanrobot-interaction-hri-and-embodied-ai) · [LLMs & RAG](PROJECTS.md#03--llms-rag-and-intelligent-agents) · [Applied AI](PROJECTS.md#04--applied-ai-data-science-and-sustainability) · [All Projects](PROJECTS.md)
 link : https://sajjad-portfolio-flax.vercel.app/
 
 Personal research website: robotics, human–robot interaction and embodied AI at the University of Brighton.
