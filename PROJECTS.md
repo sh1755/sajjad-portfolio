@@ -56,7 +56,7 @@ For the personal research website, visit [sajjad-portfolio](https://sajjad-portf
 
 ## Recommended featured repositories
 
-Pin the following **six** repositories to the GitHub profile to tell a coherent research story:
+
 
 1. [G1-LLM-Humanoid-HRI-MuJoCo](https://github.com/sh1755/G1-LLM-Humanoid-HRI-MuJoCo) — LLM-based humanoid HRI *(pin once source code has been uploaded)*.
 2. [Franka_MediaPipe_BodyPose_HandGesture_Control](https://github.com/sh1755/Franka_MediaPipe_BodyPose_HandGesture_Control) — perception-driven robot interaction.
