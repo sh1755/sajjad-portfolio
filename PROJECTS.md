@@ -65,7 +65,8 @@ For the personal research website, visit [sajjad-portfolio](https://sajjad-portf
 5. [multimodal-kg-rag-publaynet](https://github.com/sh1755/multimodal-kg-rag-publaynet) — LLM/RAG and multimodal AI.
 6. [Energy-Recommender-System](https://github.com/sh1755/Energy-Recommender-System) — explainable applied machine learning.
 
-**Note:** GitHub profile pins and repository *topics* are GitHub profile/repository settings. The catalogue itself does not change those settings.
+
+
 
 ## Recommended GitHub topics
 
