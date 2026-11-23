@@ -81,8 +81,4 @@ Add descriptive lowercase topics using **Repository → About → Edit** (keep o
 | Multimodal KG-RAG | `multimodal-rag`, `knowledge-graph`, `document-ai`, `computer-vision` |
 | Energy recommender | `recommender-systems`, `explainable-ai`, `energy`, `machine-learning` |
 
-## Keeping the catalogue current
 
-When you publish a new project, add it to its primary research category, include a one-line description, identify its actual frameworks, and link to a reproducible README. Avoid publishing API secrets, unpublished datasets, private teaching documents, or real-robot credentials.
-
-Only **public repositories** are linked above. Private work is intentionally not listed.
