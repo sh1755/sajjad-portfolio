@@ -1,5 +1,9 @@
 # Dr Sajjad Hussain — academic portfolio
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sh1755/sajjad-portfolio/main/assets/github-profile/robotics-banner.svg" alt="Robotics and AI research banner" width="100%" />
+</p>
+
 **Explore projects by research area:** [Robotics & Robot Control](PROJECTS.md#02--robotics-robot-control-and-simulation) · [Human–Robot Interaction](PROJECTS.md#01--humanrobot-interaction-hri-and-embodied-ai) · [LLMs & RAG](PROJECTS.md#03--llms-rag-and-intelligent-agents) · [Applied AI](PROJECTS.md#04--applied-ai-data-science-and-sustainability) · [All Projects](PROJECTS.md)
 link : https://sajjad-portfolio-flax.vercel.app/
 
